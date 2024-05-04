@@ -1,14 +1,12 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import CityWeatherList from "./component/CityWeatherList";
+import React from 'react';
+import CityWeatherList from './components/CityWeatherList';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
       <CityWeatherList />
     </div>
   );
-}
+};
 
 export default App;
